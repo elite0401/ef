@@ -281,7 +281,7 @@ margin-right: 0 !important;
 }
 
 .hdrBtm .navbar-default .navbar-nav > li > a {
-    font: 13px "Avenir-Black";
+    font: 12px "Avenir-Black";
     padding: 10px;
     letter-spacing: 0.6px;
     width: auto;
@@ -298,7 +298,7 @@ margin-right: 0 !important;
 .hdrBtm .navbar-default {
 	background: transparent;
 	border:none;
-    margin-top: 9px;
+    margin-top: 12px;
 }
 
 .hdrBtm .leftside {
