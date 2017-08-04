@@ -281,11 +281,10 @@ margin-right: 0 !important;
 }
 
 .hdrBtm .navbar-default .navbar-nav > li > a {
-    font: 13px "Avenir-Roman";
+    font: 13px "Avenir-Black";
     padding: 10px;
     letter-spacing: 0.6px;
     width: auto;
-    font-weight: 500;
 }
 
 .hdrBtm .navbar-default .navbar-nav > li > a:hover {
