@@ -2547,6 +2547,7 @@ margin-right: 0 !important;
 .technical-support .left-content {
     float: left;
     width: 395px;
+    position: relative;
 }
 
 .technical-support p {
@@ -2555,6 +2556,9 @@ margin-right: 0 !important;
     font: 15px/26px "Avenir-Book";
     margin-bottom: 35px;
     width: 100%;
+}
+.technical-support  .left-content p {
+    color: #323030;
 }
 
 .left-content  ul li {
@@ -2822,6 +2826,10 @@ margin-right: 0 !important;
     padding: 0;
 }
 
+.sustainability .row-block.we-are-comitted .container {
+    margin-top: 50px;
+}
+
 .sustainability h1 {
     float: left;
     font: 62px "Avenir-Black";
@@ -2978,6 +2986,8 @@ margin-right: 0 !important;
     position: absolute;
     top: 0;
     width: 43%;
+    padding-top: 70px;
+    max-width: 500px;
 }
 
 .left-content {
@@ -3929,9 +3939,8 @@ margin-right: 0 !important;
 
 }
 .row-block.customer-page .left-content > p {
-    text-align: center;
+    text-align: left;
 }
-
 
 @media only screen and (max-width:767px) {
 
