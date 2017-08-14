@@ -629,9 +629,8 @@ margin-right: 0 !important;
 }
 
 .input-group.input-group-lg .search:hover {
-	background-position:  center -96px;
+	/*background-position:  center -96px;*/
 }
-
 
 .bx-controls-direction {
     position: absolute;
@@ -3263,6 +3262,10 @@ margin-right: 0 !important;
 
 .content-wrapper .tellus-tab h2 {
     font-family: "Avenir-Black";
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #686868;
 }
 
 /* Contact us Page style ends here */
