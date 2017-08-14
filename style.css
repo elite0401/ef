@@ -2394,7 +2394,7 @@ margin-right: 0 !important;
 /* Distribution Style Starts */
 
 .distribution h1 {
-    font: 52px/72px "AvenirNext-UltraLight";
+    font: 64px/72px "AvenirNext-UltraLight";
     color: #2e3336;
 }
 
@@ -2402,6 +2402,11 @@ margin-right: 0 !important;
     display: block;
     margin: 0 auto;
     width: 870px;
+}
+
+.distribution .head-content p {
+    font: 18px/28px "Avenir-Book";
+    hyphens: auto;
 }
 
 .distribution .row-block {
@@ -2650,6 +2655,7 @@ margin-right: 0 !important;
     margin: 0 auto;
     max-width: 100%;
     width: 67px;
+    margin-top: 5px;
 }
 
 .infra-bottom .pull-right img {
@@ -2804,6 +2810,8 @@ margin-right: 0 !important;
     padding: 0 0 0 58px;
     position: relative;
     width: 375px;
+    hyphens: auto;
+    margin-left: 20px;
 }
 
 .feats .list-inline li:before {
@@ -5329,6 +5337,7 @@ header {
     padding-left: 29px;
     position: relative;
     text-align: left;
+    margin-left: 50px;
 }
 
 .understand.row-block {
