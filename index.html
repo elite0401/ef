@@ -16,6 +16,7 @@
 	<script type="text/javascript" src="scripts/bootstrap-select.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/validator.min.js"></script>
 	<script type="text/javascript" src="scripts/custom.js"></script>
 	<script type="text/javascript" src="scripts/jquery.bxslider.min.js"></script>
 </head>
@@ -808,31 +809,42 @@
 						</address>
 					</div>
 					<div class="col-md-5 pull-right">
-						
-						<div class="form-group">
-							<div>
-								<input type="text" class="form-control" name="name" required="required" />
-								<label for="name">Name</label>
-								<span class="stroke">&nbsp;</span>
+						<form data-toggle="validator" role="form">
+							<div class="form-group">
+								<div>
+									<input type="text" class="form-control" name="name" required />
+									<label for="name">Name</label>
+									<span class="stroke">&nbsp;</span>
+									<div class="help-block with-errors"></div>
+								</div>
 							</div>
-							<div>
-								<input type="text" class="form-control" name="email" required="required" />
-								<label for="email">Email</label>
-								<span class="stroke">&nbsp;</span>
+							<div class="form-group">
+								<div>
+									<input type="email" class="form-control" name="email" required />
+									<label for="email">Email</label>
+									<span class="stroke">&nbsp;</span>
+									<div class="help-block with-errors"></div>
+								</div>
 							</div>
-							<div>
-								<input type="tel" class="form-control" name="phone" required="required" />
-								<label for="phone">Phone</label>
-								<span class="stroke">&nbsp;</span>
+							<div class="form-group">
+								<div>
+									<input type="tel" class="form-control" name="phone" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required />
+									<label for="phone">Phone</label>
+									<span class="stroke">&nbsp;</span>
+									<div class="help-block with-errors"></div>
+								</div>
 							</div>
-							<div class="last">	
-								<textarea class="form-control" name="message" required="required"></textarea>
-								<label for="message">Tell us your needs</label>
-								<span class="stroke">&nbsp;</span>
-								<span class="text-limit">0/120</span>
+							<div class="form-group">
+								<div class="last">	
+									<textarea class="form-control" name="message" required></textarea>
+									<label for="message">Tell us your needs</label>
+									<span class="stroke">&nbsp;</span>
+									<span class="text-limit">0/120</span>
+									<div class="help-block with-errors"></div>
+								</div>
+								<input type="submit" value="Submit" class="btns" name="">
 							</div>
-							<input type="submit" value="Submit" class="btns" name="">
-						</div>
+						</form>
 					</div>
 				</div>
 			</div>
