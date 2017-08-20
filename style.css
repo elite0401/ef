@@ -5572,6 +5572,10 @@ form .has-error .form-control {
         width: 100%;
     }
 
+    .feats .list-inline li.pull-right {
+        float: left !important;
+    }
+
     .row-block.head .head-btm > div > div {
         margin: 0 0 40px;
         width: 100%;
