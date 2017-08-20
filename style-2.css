@@ -493,6 +493,7 @@
 .certficate-holder.fda {
     float: left;
     width: 126px;
+    margin-top: 18px;
 }
 
 .certficate-holder.uspnf {
@@ -560,10 +561,15 @@
 	max-width: 100%;
 }*/
 
+@media only screen and (min-width: 1900px) {
+    .row-block.about-list {
+        height: auto;
+    }
+}
 
 @media only screen and (min-width:1600px) {
 	.row-block.about-list {
-		height: 837px
+		height: auto;
 	}
 
 	.row-block.about-list .content-section.right .section-icons {
