@@ -1239,6 +1239,58 @@
         margin-top: 120px;
     }
 
+    .content-wrapper.contact-us-wrapper .head img.responsive.visible-xs{
+        width: 100%;
+    }
+    .contact-cont-encl .title-icon img {
+        width: 80px;
+    }
+    .contact-cont-encl .title-encl  h2 {
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    .contact-cont-encl .title-encl  p {
+        font-size: 18px;
+    }
+    .contact-cont-encl .company-name {
+        font-size: 15px;
+        padding-bottom: 8px;
+        background-size: 23%;
+        background-position: -44px 7px;
+    }
+    .contact-cont-encl .company-location {
+        background-size: 23%;
+        background-position: -44px -83px;
+    }
+    .contact-cont-encl .ph-no {
+        background-size: 23%;
+        background-position: -41px -174px;
+    }
+    .contact-cont-encl .fax {
+        background-size: 23%;
+        background-position: -43px -260px;
+    }
+    .contact-cont-encl .company-location, .contact-cont-encl .ph-no, .contact-cont-encl .fax {
+        font-size: 15px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+    }
+    .contact-cont-encl {
+        /*padding-left: 100px;*/
+    }
+    .contact-cont-encl .address-encl {
+        left: 40px;
+        bottom: 20px;
+    }
+    .contact-content-overlay {
+        padding: 3% 0;
+    }
+    .contact-cont-encl .address-encl a {
+        border: 1px solid rgba(255,255,255,0.5);
+        color: rgba(255,255,255,0.85);
+        margin-left: 15px;
+    }
+
 }
 
 
