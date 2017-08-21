@@ -594,6 +594,124 @@
 
 }
 
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+    .content-wrapper.contact-us-wrapper .head img.responsive.hidden-xs{
+        width: 100%;
+    }
+    .contact-cont-encl .title-icon img {
+        width: 80px;
+    }
+    .contact-cont-encl .title-encl  h2 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .contact-cont-encl .company-name {
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    .contact-cont-encl .company-location, .contact-cont-encl .ph-no, .contact-cont-encl .fax {
+        font-size: 16px;
+        padding-bottom: 8px;
+    }
+    .contact-cont-encl {
+        padding-left: 100px;
+    }
+    .contact-cont-encl .address-encl {
+        left: 100px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .content-wrapper.contact-us-wrapper .head img.responsive.hidden-xs{
+        width: 100%;
+    }
+    .contact-cont-encl .title-icon img {
+        width: 60px;
+    }
+    .contact-cont-encl .title-encl  h2 {
+        font-size: 23px;
+        margin-top: 10px;
+    }
+    .contact-cont-encl .title-encl  p {
+        font-size: 15px;
+    }
+    .contact-cont-encl .company-name {
+        font-size: 15px;
+        padding-bottom: 8px;
+        background-size: 23%;
+        background-position: -73px 5px;
+    }
+    .contact-cont-encl .company-location {
+        background-size: 23%;
+        background-position: -74px -105px;
+    }
+    .contact-cont-encl .ph-no {
+        background-size: 23%;
+        background-position: -68px -224px;
+    }
+    .contact-cont-encl .fax {
+        background-size: 23%;
+        background-position: -70px -331px;
+    }
+    .contact-cont-encl .company-location, .contact-cont-encl .ph-no, .contact-cont-encl .fax {
+        font-size: 15px;
+        padding-bottom: 8px;
+    }
+    .contact-cont-encl {
+        padding-left: 200px;
+    }
+    .contact-cont-encl .address-encl {
+        left: 200px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .content-wrapper.contact-us-wrapper .head img.responsive.hidden-xs{
+        width: 100%;
+    }
+    .contact-cont-encl .title-icon img {
+        width: 40px;
+    }
+    .contact-cont-encl .title-encl  h2 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    .contact-cont-encl .title-encl  p {
+        font-size: 15px;
+    }
+    .contact-cont-encl .company-name {
+        font-size: 15px;
+        padding-bottom: 8px;
+        background-size: 23%;
+        background-position: -73px 5px;
+    }
+    .contact-cont-encl .company-location {
+        background-size: 23%;
+        background-position: -74px -105px;
+    }
+    .contact-cont-encl .ph-no {
+        background-size: 23%;
+        background-position: -68px -224px;
+    }
+    .contact-cont-encl .fax {
+        background-size: 23%;
+        background-position: -70px -331px;
+    }
+    .contact-cont-encl .company-location, .contact-cont-encl .ph-no, .contact-cont-encl .fax {
+        font-size: 15px;
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+    .contact-cont-encl {
+        padding-left: 100px;
+    }
+    .contact-cont-encl .address-encl {
+        left: 100px;
+    }
+    .contact-content-overlay {
+        padding: 3% 0;
+    }
+}
+
 @media only screen and (min-width:1200px) and (max-width:1599px) {
     .about-list .content-section.right .content-inside {
         top: 194px;
@@ -602,6 +720,7 @@
         top: 154px;
         right: 210px;
     }
+
 }
 
 @media only screen and (min-width:1200px) and (max-width:1320px) {
