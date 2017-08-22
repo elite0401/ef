@@ -78,7 +78,7 @@ $(document).ready(function() {
 
 
 	if ($(window).width() < 768) {
-		$(".footer-top address").remove().insertAfter(".footer-top .form-group");
+		$(".footer-top address").remove().insertAfter(".footer-top .form-group.last");
 		$(".info-detail.bottom").remove().insertAfter(".product-features");
 	}
 	else {
@@ -141,7 +141,7 @@ $(document).ready(function() {
 
 $(window).resize(function() {
 	if ($(window).width() < 768) {
-		$(".footer-top address").remove().insertAfter(".footer-top .form-group");
+		$(".footer-top address").remove().insertAfter(".footer-top .form-group.last");
 		$(".info-detail.bottom").remove().insertAfter(".product-features");
 	}
 	else {

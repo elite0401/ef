@@ -4233,7 +4233,7 @@ form .has-error .form-control {
     }
 
     .about-rht {
-        margin: 2px 0 8px;
+        margin: 12px 0 18px;
     }
 
     .about-rht img {
@@ -4253,7 +4253,7 @@ form .has-error .form-control {
     }
 
     .content-wrapper h2 {
-        font: 17px "Avenir-Medium";
+        font: 30px "Avenir-Medium";
         text-align: center;
     }
 
@@ -4295,7 +4295,7 @@ form .has-error .form-control {
     }
 
     .snippetEncl div > img {
-        max-width: 70px;
+        max-width: 100px;
     }
 
     .snippetEncl div:last-child > img {
@@ -4313,7 +4313,8 @@ form .has-error .form-control {
     .customengine-encl .img-sec img {
         display: block;
         margin: 0 auto;
-        max-width: 90px;
+        max-width: 120px;
+        margin-bottom: 40px;
     }
 
     .customengine-encl p {
@@ -4400,6 +4401,10 @@ form .has-error .form-control {
         display: inline-block;
         margin-right: 8px;
         padding-right: 8px;
+    }
+
+    .footer-mid ul li.visible-xs {
+        display: inline-block !important;
     }
 
     .footer-mid ul li:last-child {
@@ -5197,8 +5202,11 @@ form .has-error .form-control {
         margin: 0 auto;
     }
 
+    .customengine-encl ul li > span {
+        margin: 15px auto 15px;
+    }
     .customengine-encl ul li > span img {
-        width: 40px;
+        width: 70px;
     }
 
     .content-wrapper.product .btns {
