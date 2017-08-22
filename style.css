@@ -5312,7 +5312,7 @@ form .has-error .form-control {
     }
 
     .distri-head h1 {
-        font-size: 25px;
+        font-size: 30px;
         line-height: 40px;
     }
 
@@ -5331,7 +5331,7 @@ form .has-error .form-control {
     }
 
     .head-content .icon-div > img {
-        width: 100px;
+        width: 120px;
     }
 
     .head-content > div:last-child {
@@ -5341,6 +5341,9 @@ form .has-error .form-control {
     .head-content p {
         font: 15px/26px "Avenir-Book";
         margin-top: 10px;
+    }
+    .distribution .head-content p {
+        margin-top: 25px;
     }
 
     .head-feat ul {
@@ -5355,7 +5358,7 @@ form .has-error .form-control {
     }
 
     .head-feat .container {
-        padding: 0 23px;
+        padding: 0 20px;
     }
 
     .head-feat ul li:before {
@@ -5374,12 +5377,12 @@ form .has-error .form-control {
         padding-left: 29px;
         position: relative;
         text-align: left;
-        margin-left: 50px;
+        margin-left: 0;
     }
 
     .understand.row-block {
         height: auto;
-        padding-top: 60px;
+        padding-top: 10px;
     }
 
     .understand .container {
@@ -5459,12 +5462,22 @@ form .has-error .form-control {
         max-width: 100%;
     }
 
+    .infrastructure > img {
+        max-width: 480px;
+        margin-left: -70px;
+    }
+
+    .customer-service > img {
+        max-width: 400px;
+        margin-left: -40px;
+    }
+
     .infra-content > .container {
         width: 100%;
     }
 
     .infrastructure h3 {
-        font-size: 21px;
+        font-size: 24px;
     }
 
     .infra-content > .container > p {
@@ -5625,6 +5638,9 @@ form .has-error .form-control {
     .abt-snippet.establish .image-holder,
     .abt-snippet.engineered .image-holder {
         margin: 20px auto;
+    }
+    .ban-search-section {
+        top: 74%;
     }
 
 }
