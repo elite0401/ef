@@ -1567,4 +1567,99 @@
     .row-block.about-list .content-section.right .section-icons {
         width: 465px;
     }
+    .product-info.slider-wrapper .mainslider > li > img,
+    .slider-wrapper.product-info.product-listing .mainslider > li > img {
+        max-width: 440px;
+    }
+    .breadcrumbs {
+        margin-top: 20px;
+    }
+    .thumbnail-item .product-block > .product-box a {
+        position: relative;
+        text-align: left;
+        bottom: 0;
+    }
+    .container-fluid.about.solution .logo-encl {
+        padding: 0 0 50px;
+    }
+    .about .about-content.solution-content .container h3 {
+        font-size: 18px;
+    }
+    .content-section.left.white-text .cont-1.leaf .img-cvr, .content-section.left.white-text .cont-1.leavering .img-cvr {
+        width: 32px;
+    }
+    .content-section.right .img-cvr {
+        width: 32px;
+        margin-right: 0;
+    }
+    .container-fluid.about.solution .row-block.about-list .cont-1 p {
+        width: 80%;
+    }
+    .certficate-holder.fda {
+        margin-top: 8px;
+    }
+    .sustainability h1 {
+        font-size: 30px;
+    }
+    .main-colored-logo {
+        width: 100%;
+    }
+    .row-block.head .head-btm .pull-left img, .row-block.head .head-btm .pull-right img {
+        width: 72px;
+    }
+    .row-block.head .head-btm .pull-right img {
+        width: 32px;
+    }
+    .emphasis.row-block {
+        padding: 40px 0 0 0;
+    }
+    .emphasis-left img {
+        max-width: 120px;
+    }
+    .emphasis-right > h2 span {
+        font-size: 18px;
+    }
+    .content-wrapper .emphasis-right h2 {
+        font-size: 24px;
+    }
+    .emphasis-right .li-cont {
+        width: 100% !important;
+    }
+    .people .pos-left, .people .pos-right {
+        width: 100%;
+    }
+    .people .pos-left .img-box, .people .pos-right .img-box {
+        width: 32px;
+    }
+    .people .pos-left p, .people .pos-right p {
+        width: 80%;
+    }
+    .img-box.degree {
+        width:  32px !important;
+    }
+    .people .container > h2, .we-are-comitted .container > h2, .row-block.customer-page .left-content > h2 {
+        font-size: 30px;
+    }
+    .row-block.customer-page .left-content span {
+        width: 85%;
+    }
+    .row-block.customer-page .left-content img {
+        width: 25px;
+    }
+    .row-block.customer-page .left-content {
+        padding-top: 10px;
+    }
+    .we-are-comitted .container > p {
+        width: 100%;
+    }
+    .col-sm-4.comitted-snip {
+        margin-top: 50px;
+    }
+    .col-sm-4.comitted-snip img {
+        max-height: 80px;
+    }
+    .sustainability .row-block.we-are-comitted .container {
+        margin-top: 20px;
+    }
+
 }

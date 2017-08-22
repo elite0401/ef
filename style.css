@@ -2865,9 +2865,9 @@ margin-right: 0 !important;
 }
 
 .main-colored-logo {
-    float: left;
-    margin: 50px 0 0 420px;
-    width: 600px;
+    display: block;
+    margin: 50px auto 60px auto;
+    width: 500px;
 }
 
 .sustainability .row-block.head {
@@ -3305,6 +3305,9 @@ form .has-error .form-control {
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+.no-padding {
+    padding: 0 !important;
+}
 
 /* Contact us Page style ends here */
 
@@ -3433,9 +3436,9 @@ form .has-error .form-control {
     }
 
     .main-colored-logo {
-        float: left;
+        /*float: left;
         margin: 50px 0 0 302px;
-        width: 600px;
+        width: 600px;*/
     }
 
     .row-block.customer-page .left-content > h2 {
@@ -3837,7 +3840,7 @@ form .has-error .form-control {
     }
 
     .main-colored-logo {
-        margin: 50px 0 0 242px;
+        /*margin: 50px 0 0 242px;*/
     }
     .middle-img {
         width: 260px;
@@ -3893,7 +3896,7 @@ form .has-error .form-control {
     }
 
     .main-colored-logo {
-        margin: 50px 0 0 202px;
+        /*margin: 50px 0 0 202px;*/
     }
 
     .emphasis-left {
@@ -4700,6 +4703,14 @@ form .has-error .form-control {
         font: 15px "Avenir-Medium";
         color: rgba(51, 51, 51, 0.85);
     }
+    .product-block > div .product-name.text-left,
+    .product-tab .product-block .product-box .product-name.text-left {
+        text-align: left;
+        margin-top: 0;
+    }
+    .product-block > div .desc.text-left, .product-tab .product-block .product-box .desc.text-left {
+        text-align: left;
+    }
 
     .product-tab .nav-tabs {
         margin-top: 0;
@@ -5145,7 +5156,7 @@ form .has-error .form-control {
     }
 
     .thumbnail-item .product-block > .product-box > div {
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
 
     .thumbnail-item .product-block > .product-box a {
@@ -5609,12 +5620,12 @@ form .has-error .form-control {
         margin: 50px 0 0 134px;
     }
     .main-colored-logo {
-        margin: 50px auto 20px 150px;
+        margin: 50px auto 100px auto;
         width: 400px;
     }
 
     .row-block.head .head-btm h3 {
-        font-size: 35px;
+        font-size: 18px;
     }
 
     .emphasis-right .li-cont {
