@@ -5620,6 +5620,12 @@ form .has-error .form-control {
     .img-box.degree {
         width: 28px !important;
     }
+    .abt-snippet.research .image-holder,
+    .abt-snippet.mission .image-holder,
+    .abt-snippet.establish .image-holder,
+    .abt-snippet.engineered .image-holder {
+        margin: 20px auto;
+    }
 
 }
 
@@ -5832,6 +5838,5 @@ form .has-error .form-control {
     }
 
 }
-
 
 /*RESPONSIVE STYLE GOES HERE*/

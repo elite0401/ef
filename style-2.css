@@ -1556,3 +1556,15 @@
     }
 
 }
+
+@media only screen and (max-width: 480px) {
+    .row-block.about-list > img {
+        max-width: 420px;
+    }
+    .row-block.about-list.blending .content-section.left .section-icons {
+        width: 465px;
+    }
+    .row-block.about-list .content-section.right .section-icons {
+        width: 465px;
+    }
+}
