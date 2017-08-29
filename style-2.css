@@ -810,6 +810,9 @@
     .container-fluid.about.solution .row-block.about-list .cont-1:last-child {
         margin: 0;
     }
+    .search-encl {
+        right: 0;
+    }
 
 }
 
