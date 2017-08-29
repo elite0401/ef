@@ -1270,7 +1270,7 @@ margin-right: 0 !important;
 }
 
 .content-wrapper.product p {
-    color: rgba(16, 16, 16, 0.85);
+    color: rgba(51, 51, 51, 0.85);
     font: 15px/26px "Avenir-Book";  
 }
 
@@ -3987,6 +3987,10 @@ form .has-error .form-control {
 
 @media only screen and (max-width:767px) {
 
+    .padding-5 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
     header {
         position: relative;
     }
@@ -4081,13 +4085,13 @@ form .has-error .form-control {
     }
 
     .slider-wrapper .content-cvr h1 {
-        font: 18px "Avenir-Black";
+        font: 20px "Avenir-Black";
         margin-bottom: 20px;
     }
 
     .slider-wrapper .content-cvr p {
-        font-size: 13px;
-        line-height: 17px;
+        font-size: 14px;
+        line-height: 23px;
         width: 100%;
         margin-bottom: 28px;
     }
@@ -4596,6 +4600,7 @@ form .has-error .form-control {
     .content-wrapper.product h2 {
         font: 18px "Avenir-Medium";
         margin: 23px 0 10px;
+        color: rgba(51,51,51,0.9);
     }
 
     .content-wrapper.product {
@@ -4615,20 +4620,30 @@ form .has-error .form-control {
         width: 100%;
     }
 
+/*    .tellus-tab .nav-tabs li a:hover, .tellus-tab .nav-tabs li.active a, .tellus-tab .nav-tabs li a:focus, .tellus-tab .nav-tabs li.active a:hover, .tellus-tab .nav-tabs li.active a:focus {
+        border-bottom: 0;
+    }*/
     .tellus-tab .nav-tabs li a span {
-        display: none;
+        font-size: 12px;
+    }
+    .tellus-tab .nav-tabs li.active a span {
+        font-size: 12px;
+        margin-top: 15px;
+        /*border-bottom: 2px solid #4c9dee;*/
     }
 
     .tellus-tab .nav-tabs li a {
-        height: 43px;
+        height: 75px;
     }
 
     .tellus-tab .nav-tabs li a img {
-        max-width: 53%;
+        max-width: 80%;
+        max-height: 41px;
     }
 
     .tellus-tab .footer-top {
         padding-top: 10px; 
+        padding: 10px 5px 0;
     }
 
     .product-tab .nav-tabs {
@@ -4744,7 +4759,7 @@ form .has-error .form-control {
     .list-item .product-block > div > div {
         min-height: 30px;
         height: auto;
-        padding: 10px 10px 20px;
+        padding: 10px 0 20px;
         float: left;
         margin-bottom: 15px;
         width: 100%;
@@ -4762,7 +4777,7 @@ form .has-error .form-control {
 
     .list-item .product-block > div .product-icon {
         float: left;
-        width: 25%;
+        width: 30%;
     }
 
     .list-item .product-block > div .product-icon img {
@@ -4777,7 +4792,7 @@ form .has-error .form-control {
     .list-item .product-block > div > div > span,
     .list-item .product-block > div > div > a {
         float: right;
-        width: 72%;
+        width: 70%;
         text-align: left;
     }
 
