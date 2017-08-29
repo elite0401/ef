@@ -939,6 +939,10 @@
     .about-list .content-inside > h2, .distribution .cont-1 {
         width: 100%;
     }
+    .navbar .navbar-collapse {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 }
 
