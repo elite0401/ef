@@ -576,7 +576,7 @@
         height: auto;
         position: absolute;
         right: 190px;
-        top: 100px;
+        top: 20px;
         width: 770px;
     }
 
@@ -585,11 +585,11 @@
         left: auto;
         position: absolute;
         right: 371px;
-        top: 321px;
+        top: 231px;
         width: 450px;
     }
     .about-list .content-section.right .content-inside.second {
-        top: 261px;
+        top: 181px;
     }
 
 }
@@ -715,21 +715,48 @@
 @media only screen and (min-width:1200px) and (max-width:1599px) {
     .about-list .content-section.right .content-inside {
         top: 194px;
+        right: 291px;
+    }
+    .about-list .content-inside > h2 {
+        font: 60px/70px "AvenirNext-UltraLight";
     }
     .about-list .content-section.right .content-inside.second {
         top: 154px;
         right: 210px;
     }
+}
 
+@media only screen and (min-width:1200px) and (max-width:1400px) {
+    .about-list .content-section.right .content-inside {
+        top: 164px;
+        right: 291px;
+    }
+    .about-list .content-inside > h2 {
+        font: 55px/60px "AvenirNext-UltraLight";
+    }
+    .about-list .content-inside.second {
+        top: 120px;
+    }
 }
 
 @media only screen and (min-width:1200px) and (max-width:1320px) {
-
-    .about-list .content-inside > h2 {
-        font-size: 60px;
-        line-height: 62px;;
+    .about-list .content-section.right .content-inside {
+        top: 144px;
+        right: 301px;
     }
-
+    .about-list .content-inside > h2 {
+        margin-bottom: 20px;
+    }
+    .about-list .content-inside > p {
+        margin-bottom: 10px;
+    }
+    .about-list .content-section.right .content-inside.second {
+        top: 134px;
+        right: 230px;
+    }
+    .about-list .content-inside.second {
+        top: 90px;
+    }
 }
 
 
