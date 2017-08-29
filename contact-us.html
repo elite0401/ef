@@ -20,6 +20,7 @@
 	<script type="text/javascript" src="scripts/validator.min.js"></script>
 	<script type="text/javascript" src="scripts/custom.js"></script>
 	<script type="text/javascript" src="scripts/jquery.bxslider.min.js"></script>
+	<script src="scripts/jquery.popupoverlay.js"></script>
 </head>
 <body>
 <!--Main Wrapper Starts Here-->
@@ -120,7 +121,7 @@
 										</li>
 										<li class="ph-no">480.945.8400</li>
 										<li class="fax">480.361.4968</li>
-										<li class="contact-link"><a href="javascript:;">contact</a></li>
+										<li class="contact-link"><a class="fadeandscale_open" href="#fadeandscale">contact</a></li>
 									</ul>
 
 								
@@ -151,7 +152,7 @@
 										<li class="company-location">
 											1102 N Blue Creek Rd El Campo, TX 77437
 										</li>
-										<li class="contact-link"><a href="javascript:;">contact</a></li>
+										<li class="contact-link"><a class="fadeandscale_open" href="#fadeandscale">contact</a></li>
 									</ul>
 
 								
@@ -183,7 +184,7 @@
 										<li class="company-location">
 											4241 North Winfield Scott Plaza, Suite 101 Scottsdale, Arizona 85251
 										</li>
-										<li class="contact-link"><a href="javascript:;">contact</a></li>
+										<li class="contact-link"><a class="fadeandscale_open" href="#fadeandscale">contact</a></li>
 									</ul>
 
 								
@@ -603,6 +604,67 @@
 		</div>
 	</div>
 
+	<div id="fadeandscale" class="well tellus-tab">
+			<!-- container Starts here -->
+					<div class="container">
+						<h2 class="text-center">Tell us Your Needs</h2>
+						<p class="lead text-center">Our helpful staff is always on hand to help answer questions and provide technical assistance. Let our team of experts help find the next chemical innovation for you.</p>
+
+						<div class="tab-content col-lg-12 col-xs-12 footer-top">
+							<div id="tab1" class="tab-pane fade in active">
+								<form data-toggle="validator" role="form">
+									<div class="form-group">
+										<div>
+											<input type="text" class="form-control" name="name" required />
+											<label for="name">Name</label>
+											<span class="stroke">&nbsp;</span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div>
+											<input type="text" class="form-control" name="company" required />
+											<label for="company">Company</label>
+											<span class="stroke">&nbsp;</span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div>
+											<input type="email" class="form-control" name="email" required />
+											<label for="email">Email</label>
+											<span class="stroke">&nbsp;</span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div>
+											<input type="tel" class="form-control" name="phone" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required />
+											<label for="phone">Phone Number</label>
+											<span class="stroke">&nbsp;</span>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="last">	
+											<textarea class="form-control" name="message" required></textarea>
+											<label for="message">how can we help</label>
+											<span class="stroke">&nbsp;</span>
+											<span class="text-limit">0/120</span>
+											<div class="help-block with-errors"></div>
+										</div>
+										<input type="submit" value="Submit" class="btns" name="">
+									</div>
+								</form>
+							</div>
+
+						
+						</div>
+
+					</div>
+					<!-- container Ends here -->
+		</div>
+
 	<!--Footer Wrapper starts here-->
 	<div class="footer-wrapper container-fluid">
 		<div class="row">
@@ -667,5 +729,12 @@
 <!--Main Wrapper Ends Here-->
 </body>
 
-
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#fadeandscale').popup({
+			pagecontainer: '.container',
+			transition: 'all 0.3s'
+		});
+	});
+</script>
 </html>

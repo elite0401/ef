@@ -3224,6 +3224,7 @@ margin-right: 0 !important;
     font-family: "Avenir-Medium";
     font-size: 16px;
     padding: 9px 30px;
+    background: rgba(238, 238, 238, 0.48);
 }
 
 .contact-cont-encl .address-encl a:hover {
