@@ -923,6 +923,9 @@ margin-right: 0 !important;
     position: absolute;
     right: 0;
 }
+.contact-us-wrapper .text-limit {
+    color: rgba(0, 0, 0, 0.85);
+}
 
 .footer-top .form-control:hover, .footer-top .form-control:focus {
     box-shadow: none;
@@ -1229,8 +1232,18 @@ margin-right: 0 !important;
     -o-transition: all .13s linear;
 }
 
+.contact-us-wrapper .footer-top .form-group div label {
+    color: rgba(0,0,0,0.85);
+}
+.contact-us-wrapper .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    color: rgba(0,0,0,0.85);
+}
+
 .footer-top .form-group > p {
     color: rgba(0, 0, 0, 0.5) !important;
+}
+.contact-us-wrapper .footer-top .form-group > p {
+    color: rgba(0,0,0,0.85) !important;
 }
 
 .footer-top .form-group div input:focus + label, .footer-top .form-group div input:valid + label {
@@ -1464,6 +1477,9 @@ margin-right: 0 !important;
     margin-top: 14px;
     width: 100%;
     text-align: center;
+}
+.contact-us-wrapper .tellus-tab .nav-tabs li a span {
+    color: rgba(0,0,0,0.85);
 }
 
 .bottom-tab-1 > img {
